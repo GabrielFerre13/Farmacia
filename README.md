@@ -5,7 +5,7 @@ Além da implementação das funcionalidades, o projeto também foi utilizado pa
 
 ---
 
-## 🎯 Objetivo do Projeto
+##  Objetivo do Projeto
 
 - Simular o cadastro e gerenciamento de medicamentos
 - Controlar estoque de produtos
@@ -15,7 +15,7 @@ Além da implementação das funcionalidades, o projeto também foi utilizado pa
 
 ---
 
-## 🧪 Qualidade de Software (QA)
+##  Qualidade de Software (QA)
 
 Durante o desenvolvimento do projeto, foram aplicados conceitos fundamentais de QA, como:
 
@@ -29,7 +29,7 @@ Os testes foram pensados a partir da perspectiva do usuário final e também da 
 
 ---
 
-## 📋 Exemplos de Cenários Testados
+##  Exemplos de Cenários Testados
 
 - Cadastro de medicamento com dados válidos
 - Tentativa de cadastro com campos inválidos
@@ -39,7 +39,7 @@ Os testes foram pensados a partir da perspectiva do usuário final e também da 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Java
 - Programação Orientada a Objetos (POO)
@@ -48,5 +48,12 @@ Os testes foram pensados a partir da perspectiva do usuário final e também da 
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
+src/
+├── model/
+│ └── classes de domínio (ex: Medicamento)
+├── service/
+│ └── regras de negócio (ex: controle de estoque)
+└── main/
+└── execução da aplicação
